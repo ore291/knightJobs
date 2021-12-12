@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="px-24">
        <p v-if="jobs.length === 0">Jobs are being Fetched..</p>
        <div v-else v-for="job in jobs" :key="job.id">
            <JobBoardItem :job=job />
